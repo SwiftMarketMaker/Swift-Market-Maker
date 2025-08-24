@@ -1,30 +1,27 @@
-# No content
+# Swift Market Maker ($SMM) — Auto Buyback Engine
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+![Solana](https://img.shields.io/badge/solana-mainnet-purple)  
+![Status](https://img.shields.io/badge/status-experimental-orange)  
+![License](https://img.shields.io/badge/license-MIT-green)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/akshatgamingxd18-gmailcoms-projects/v0-no-content)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/WIM99FjAjMP)
+Swift Market Maker ($SMM) is a **self-sustaining PumpFun coin**.  
+Every creator reward is automatically routed into $SMM buybacks, fueling a perpetual flywheel:
 
-## Overview
+**trading → rewards → auto-buybacks → stronger $SMM**
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+---
 
-## Deployment
+## 🚀 Features
+- **Auto Buybacks** — listens for incoming creator rewards (SOL) and swaps them into $SMM via Jupiter  
+- **Live Stats API** — exposes `/api/stats` with totals (SOL collected, $SMM bought back, recent buys)  
+- **Front-End Integration** — plug directly into a v0.dev site to display real-time buyback data  
+- **Configurable Strategy** — set thresholds, slippage, and destination wallet in `.env`
 
-Your project is live at:
+---
 
-**[https://vercel.com/akshatgamingxd18-gmailcoms-projects/v0-no-content](https://vercel.com/akshatgamingxd18-gmailcoms-projects/v0-no-content)**
+## ⚙️ Setup
 
-## Build your app
-
-Continue building your app on:
-
-**[https://v0.app/chat/projects/WIM99FjAjMP](https://v0.app/chat/projects/WIM99FjAjMP)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/swift-market-maker.git
+cd swift-market-maker
